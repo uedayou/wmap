@@ -45,17 +45,17 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.9.0",
-    "xlsx": "^0.8.6"
+    "xlsx": "^0.8.6",
+    "promise": "^7.1.1",
+    "then-request": "^2.2.0",
+    "underscore": "^1.8.3"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "leaflet": "^1.0.3",
-    "promise": "^7.1.1",
     "riot": "^3.3.1",
     "riot-route": "^3.1.0",
     "slideout": "^1.0.1",
     "superagent": "^3.5.0",
-    "then-request": "^2.2.0",
-    "underscore": "^1.8.3"
   }
 }
