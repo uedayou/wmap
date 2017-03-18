@@ -68,7 +68,7 @@ gulp.task( 'data', [ 'clean' ], () => {
     // load xlsx and convert
     gulp.src( './data/**/*.xlsx' )
       .pipe( xlsx2csv() ),
-    gulp.src( './data/linkdata-dataset' )
+    gulp.src( './data/linkdata.dataset' )
       .pipe( ld2csv() )
   )
     .pipe( csv2json() )
