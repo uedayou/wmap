@@ -1,0 +1,3 @@
+url,menu,content,title,lat,lng
+https://raw.githubusercontent.com/wakayama-pref-org/land_prices_survey_h28/master/CSV/Land_prices_survey_H28.csv,"地価調査・地価公示の別","所在（大字以降）","基準地番号・標準地番号（最新年）","緯度（世界測地系）","経度（世界測地系）"
+http://www.city.osaka.lg.jp/contents/wdu090/opendata/mapnavoskdat_csv/mapnavoskdat_kankouchou.csv,"カテゴリ","所在地","施設名",Y,X

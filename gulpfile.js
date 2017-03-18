@@ -16,6 +16,7 @@ const replace     = require( 'gulp-replace' )
 const rename      = require( 'gulp-rename' )
 const rimraf      = require( 'rimraf' )
 const ld2csv      = require( './lib/gulp-wlinkdata2csv' )
+const anycsv2csv  = require( './lib/gulp-wanycsv2csv' )
 
 const config = require( './src/defaults.json' )
 
@@ -69,7 +70,9 @@ gulp.task( 'data', [ 'clean' ], () => {
     gulp.src( './data/**/*.xlsx' )
       .pipe( xlsx2csv() ),
     gulp.src( './data/linkdata.dataset' )
-      .pipe( ld2csv() )
+      .pipe( ld2csv() ),
+    gulp.src( './data/anycsv.dataset' )
+      .pipe( anycsv2csv() )
   )
     .pipe( csv2json() )
     .pipe( gulp.dest( './json' ) )
