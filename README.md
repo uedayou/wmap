@@ -10,7 +10,7 @@ LinkData.org、外部CSV/TSVファイルを使う場合のみ、各設定ファ�
 ```
 $ npm install
 $ npm run build
-$ npm serve
+$ npm start
 ```
 
 ### Wmap CSV仕様
