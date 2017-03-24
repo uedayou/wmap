@@ -31,11 +31,12 @@ $ npm start
 |:---|:---|
 |dataset|データセットID(例:rdf1s4805i)|
 |filename | ファイル名(例:takatsuki_city_vaccination_trust_hospital)|
-|menu | WmapのCSV仕様「menu」に該当するデータのカラム名、または、menuに指定したい文字列|
-|content | WmapのCSV仕様「content」に該当するデータのカラム名|
-|title | WmapのCSV仕様「title」に該当するデータのカラム名|
-|lat | WmapのCSV仕様「lat」に該当するデータのカラム名|
-|lng |WmapのCSV仕様「lng」に該当するデータのカラム名|
+|menu | 「menu」※に該当するデータのカラム名、または、menuに指定したい文字列|
+|content | 「content」※に該当するデータのカラム名|
+|title | 「title」※に該当するデータのカラム名|
+|lat | 「lat」※に該当するデータのカラム名|
+|lng |　「lng」※に該当するデータのカラム名|
+※ WmapのCSV仕様のmenu,content,title,lat,lng
 
 ##### データ例：
 ```
@@ -53,11 +54,12 @@ rdf1s3569i,takatsuki_city_culturalfacilities,施設情報,address,label,lat,long
 |カラム名| 入力データ|
 |:---|:---|
 |url | CSV/TSVファイルのURL |
-|menu | WmapのCSV仕様「menu」に該当するデータのカラム名、または、menuに指定したい文字列 |
-|content | WmapのCSV仕様「content」に該当するデータのカラム名 |
-|title | WmapのCSV仕様「title」に該当するデータのカラム名 |
-|lat | WmapのCSV仕様「lat」に該当するデータのカラム名 |
-|lng | WmapのCSV仕様「lng」に該当するデータのカラム名 |
+|menu | 「menu」※に該当するデータのカラム名、または、menuに指定したい文字列 |
+|content | 「content」※に該当するデータのカラム名 |
+|title | 「title」※に該当するデータのカラム名 |
+|lat | 「lat」※に該当するデータのカラム名 |
+|lng | 「lng」※に該当するデータのカラム名 |
+※ WmapのCSV仕様のmenu,content,title,lat,lng
 
 ##### データ例：
 ```
