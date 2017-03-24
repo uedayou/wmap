@@ -36,6 +36,7 @@ $ npm start
 |title | 「title」※に該当するデータのカラム名|
 |lat | 「lat」※に該当するデータのカラム名|
 |lng |　「lng」※に該当するデータのカラム名|
+
 ※ WmapのCSV仕様のmenu,content,title,lat,lng
 
 ##### データ例：
@@ -59,6 +60,7 @@ rdf1s3569i,takatsuki_city_culturalfacilities,施設情報,address,label,lat,long
 |title | 「title」※に該当するデータのカラム名 |
 |lat | 「lat」※に該当するデータのカラム名 |
 |lng | 「lng」※に該当するデータのカラム名 |
+
 ※ WmapのCSV仕様のmenu,content,title,lat,lng
 
 ##### データ例：
